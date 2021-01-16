@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: grpcHealthChecking
+
+grpc:
+  server:
+    health:
+      enabled: true
+
+endpoints:
+  health:
+    details-visible: ANONYMOUS
+
